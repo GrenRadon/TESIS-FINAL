@@ -1,0 +1,32 @@
+{
+  "modelo": "chiari_DenseNet121_final_v4_sin_flip.onnx",
+  "procesador": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+  "sistema": "Windows 10",
+  "gpu": false,
+  "onnxruntime": "1.23.2",
+  "repeticiones": 5,
+  "inferencias_por_repeticion": 100,
+  "calentamiento": 20,
+  "entrada": "tensor sintetico 224x224x3 en [0,255], mismo formato que produce el pipeline",
+  "p50_ms": {
+    "mediana": 34.1,
+    "minimo": 31.8,
+    "maximo": 35.7
+  },
+  "p95_ms": {
+    "mediana": 42.9,
+    "minimo": 37.7,
+    "maximo": 47.9
+  },
+  "p99_ms": {
+    "mediana": 48.5,
+    "minimo": 40.4,
+    "maximo": 54.8
+  },
+  "max_ms": {
+    "mediana": 56.4,
+    "minimo": 49.8,
+    "maximo": 92.7
+  },
+  "nota": "Solo INFERENCIA del grafo ONNX. No incluye la lectura del archivo ni el preprocesamiento, que se miden aparte en pruebas_app.py (imagen de 4000x4000 extremo a extremo). La cifra a citar es la mediana entre repeticiones; el rango da la variabilidad entre ejecuciones en la misma maquina."
+}

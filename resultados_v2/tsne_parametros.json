@@ -1,0 +1,131 @@
+{
+  "n_imagenes": 177,
+  "dim_vector": 3136,
+  "pca_componentes": 50,
+  "perplejidades": [
+    5,
+    15,
+    30,
+    50
+  ],
+  "semillas": [
+    0,
+    42
+  ],
+  "init": "pca",
+  "learning_rate": "auto",
+  "k_vecinos": 10,
+  "proyecciones": [
+    {
+      "perplejidad": 5,
+      "semilla": 0,
+      "trustworthiness": 0.7918,
+      "vecinos_misma_clase": 0.6684
+    },
+    {
+      "perplejidad": 15,
+      "semilla": 0,
+      "trustworthiness": 0.8307,
+      "vecinos_misma_clase": 0.6723
+    },
+    {
+      "perplejidad": 30,
+      "semilla": 0,
+      "trustworthiness": 0.8279,
+      "vecinos_misma_clase": 0.678
+    },
+    {
+      "perplejidad": 50,
+      "semilla": 0,
+      "trustworthiness": 0.8525,
+      "vecinos_misma_clase": 0.6774
+    },
+    {
+      "perplejidad": 5,
+      "semilla": 42,
+      "trustworthiness": 0.8007,
+      "vecinos_misma_clase": 0.6605
+    },
+    {
+      "perplejidad": 15,
+      "semilla": 42,
+      "trustworthiness": 0.8193,
+      "vecinos_misma_clase": 0.652
+    },
+    {
+      "perplejidad": 30,
+      "semilla": 42,
+      "trustworthiness": 0.8407,
+      "vecinos_misma_clase": 0.6847
+    },
+    {
+      "perplejidad": 50,
+      "semilla": 42,
+      "trustworthiness": 0.8396,
+      "vecinos_misma_clase": 0.6678
+    }
+  ],
+  "vecinos_misma_clase_al_azar": 0.6153,
+  "trustworthiness_min": 0.7918,
+  "trustworthiness_max": 0.8525,
+  "vecinos_misma_clase_min": 0.652,
+  "vecinos_misma_clase_max": 0.6847,
+  "estabilidad_entre_semillas": [
+    {
+      "perplejidad": 5,
+      "procrustes_entre_semillas": 0.5535
+    },
+    {
+      "perplejidad": 15,
+      "procrustes_entre_semillas": 0.7415
+    },
+    {
+      "perplejidad": 30,
+      "procrustes_entre_semillas": 0.6237
+    },
+    {
+      "perplejidad": 50,
+      "procrustes_entre_semillas": 0.8401
+    }
+  ],
+  "estabilidad_entre_perplejidades": [
+    {
+      "semilla": 0,
+      "de": 5,
+      "a": 15,
+      "procrustes": 0.7424
+    },
+    {
+      "semilla": 0,
+      "de": 15,
+      "a": 30,
+      "procrustes": 0.6164
+    },
+    {
+      "semilla": 0,
+      "de": 30,
+      "a": 50,
+      "procrustes": 0.5295
+    },
+    {
+      "semilla": 42,
+      "de": 5,
+      "a": 15,
+      "procrustes": 0.5898
+    },
+    {
+      "semilla": 42,
+      "de": 15,
+      "a": 30,
+      "procrustes": 0.5404
+    },
+    {
+      "semilla": 42,
+      "de": 30,
+      "a": 50,
+      "procrustes": 0.7785
+    }
+  ],
+  "criterio": "La afirmacion \"la estructura cambia\" NO es inspeccion visual: se mide con la disimilitud de Procrustes entre proyecciones del mismo conjunto de puntos (0 = identicas salvo rotacion/escala/traslacion, 1 = sin relacion). La lectura \"las clases se separan\" se mide con la fraccion de los k vecinos mas cercanos EN LA PROYECCION que son de la misma clase, contra el valor esperado al azar.",
+  "nota": "t-SNE es visualizacion exploratoria. No preserva distancias globales, depende de la perplejidad y de la semilla, y NO permite inferencia sobre separabilidad ni sobre la viabilidad de un clasificador."
+}

@@ -1,0 +1,40 @@
+{
+  "n_pares": 175,
+  "correlacion_minima": 0.9,
+  "conciliacion": {
+    "imagenes_dataset": 177,
+    "nombres_unicos_dataset": 172,
+    "imagenes_crudas": 175,
+    "crudas_fuera_del_dataset": [
+      "normal_36a.jpeg",
+      "normal_38a.jpeg",
+      "normal_40a.png"
+    ],
+    "dataset_sin_cruda": []
+  },
+  "pares_fallidos": 0,
+  "umbral_fondo_relativo": 0.1,
+  "fraccion_centro_x": {
+    "mediana": 0.6616,
+    "p25": 0.6136,
+    "p75": 0.6973
+  },
+  "fraccion_centro_y": {
+    "mediana": 0.594,
+    "p25": 0.3601,
+    "p75": 0.6284
+  },
+  "fraccion_ancho": {
+    "mediana": 0.7283,
+    "p25": 0.6315,
+    "p75": 0.8095
+  },
+  "fraccion_alto": {
+    "mediana": 0.6813,
+    "p25": 0.591,
+    "p75": 0.7865
+  },
+  "nota": "Fracciones respecto a la caja que contiene la cabeza. El centro X mediano de 0,66 refleja que en este conjunto la cabeza mira hacia la izquierda, de modo que la fosa posterior queda a la derecha. Con una imagen espejada la sugerencia caera del lado contrario y el usuario debera moverla.",
+  "limitacion": "Regularidad geometrica del conjunto de trabajo, NO deteccion de la region de interes. C-07 sigue abierto.",
+  "nota_recuento": "Los 175 pares NO son \"175 de 177 con 2 fallos\": son TODAS las imagenes crudas disponibles, y ninguna fallo al emparejar. La diferencia con 177 tiene dos causas: 5 imagenes del dataset comparten nombre con otra (177 imagenes = 172 nombres distintos) y 3 crudas pertenecen a casos excluidos por patologia en fosa posterior que conservan su recorte. 172 + 3 = 175."
+}

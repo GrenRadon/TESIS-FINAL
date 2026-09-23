@@ -1,0 +1,97 @@
+{
+  "referencia": "sin_flip (class_weight)",
+  "variantes": [
+    "focal_loss",
+    "batch_balanceado"
+  ],
+  "alpha": 0.25,
+  "gamma": 2.0,
+  "class_weight": [
+    1.8048780487804879,
+    0.6915887850467289
+  ],
+  "folds": [
+    {
+      "variante": "focal_loss",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.8636,
+      "minutos": 5.6
+    },
+    {
+      "variante": "focal_loss",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9625,
+      "minutos": 6.8
+    },
+    {
+      "variante": "focal_loss",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.8802,
+      "minutos": 6.8
+    },
+    {
+      "variante": "focal_loss",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.7524,
+      "minutos": 6.1
+    },
+    {
+      "variante": "focal_loss",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.8937,
+      "minutos": 7.0
+    },
+    {
+      "variante": "batch_balanceado",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.8831,
+      "minutos": 7.0
+    },
+    {
+      "variante": "batch_balanceado",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9688,
+      "minutos": 6.6
+    },
+    {
+      "variante": "batch_balanceado",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.849,
+      "minutos": 6.8
+    },
+    {
+      "variante": "batch_balanceado",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.8048,
+      "minutos": 6.9
+    },
+    {
+      "variante": "batch_balanceado",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.8875,
+      "minutos": 7.5
+    }
+  ],
+  "semilla": 42,
+  "nota": "Comparacion descriptiva. No se selecciona la mejor estrategia: hacerlo sobre el mismo OOF con el que se estima el rendimiento incurriria en M-05."
+}

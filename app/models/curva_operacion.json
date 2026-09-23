@@ -1,0 +1,237 @@
+{
+  "fuente": "resultados_v4/oof_sin_flip.csv",
+  "n_casos": 97,
+  "n_positivos": 61,
+  "n_negativos": 36,
+  "prevalencia": 0.6289,
+  "auc": 0.8456,
+  "auc_ic95": [
+    0.7608,
+    0.9209
+  ],
+  "n_bootstrap": 2000,
+  "semilla": 42,
+  "z": 1.959963984540054,
+  "average_precision": 0.9035,
+  "ap_linea_base": 0.6289,
+  "umbral_desplegado": 0.1484,
+  "regla": "maxima especificidad sujeta a sensibilidad >= 0,95, elegida SOLO con las predicciones out-of-fold del conjunto de desarrollo",
+  "prevalencias": [
+    0.01,
+    0.1,
+    0.3,
+    0.64
+  ],
+  "puntos": [
+    {
+      "umbral": 0.1484,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.5278,
+      "espec_ic95": [
+        0.3701,
+        0.6801
+      ],
+      "precision": 0.7733,
+      "precision_ic95": [
+        0.6666,
+        0.8534
+      ],
+      "f1": 0.8529,
+      "exactitud": 0.7938,
+      "vp": 58,
+      "vn": 19,
+      "fp": 17,
+      "fn": 3,
+      "vpp": [
+        0.0199,
+        0.1828,
+        0.4632,
+        0.7816
+      ]
+    },
+    {
+      "umbral": 0.25,
+      "sensibilidad": 0.8689,
+      "sens_ic95": [
+        0.762,
+        0.932
+      ],
+      "especificidad": 0.5833,
+      "espec_ic95": [
+        0.422,
+        0.7286
+      ],
+      "precision": 0.7794,
+      "precision_ic95": [
+        0.6674,
+        0.8615
+      ],
+      "f1": 0.8217,
+      "exactitud": 0.7629,
+      "vp": 53,
+      "vn": 21,
+      "fp": 15,
+      "fn": 8,
+      "vpp": [
+        0.0206,
+        0.1881,
+        0.4719,
+        0.7876
+      ]
+    },
+    {
+      "umbral": 0.35,
+      "sensibilidad": 0.8525,
+      "sens_ic95": [
+        0.7428,
+        0.9204
+      ],
+      "especificidad": 0.6389,
+      "espec_ic95": [
+        0.4758,
+        0.7752
+      ],
+      "precision": 0.8,
+      "precision_ic95": [
+        0.6873,
+        0.8792
+      ],
+      "f1": 0.8254,
+      "exactitud": 0.7732,
+      "vp": 52,
+      "vn": 23,
+      "fp": 13,
+      "fn": 9,
+      "vpp": [
+        0.0233,
+        0.2078,
+        0.5029,
+        0.8076
+      ]
+    },
+    {
+      "umbral": 0.5,
+      "sensibilidad": 0.8033,
+      "sens_ic95": [
+        0.6869,
+        0.8837
+      ],
+      "especificidad": 0.75,
+      "espec_ic95": [
+        0.5893,
+        0.8625
+      ],
+      "precision": 0.8448,
+      "precision_ic95": [
+        0.7307,
+        0.9162
+      ],
+      "f1": 0.8235,
+      "exactitud": 0.7835,
+      "vp": 49,
+      "vn": 27,
+      "fp": 9,
+      "fn": 12,
+      "vpp": [
+        0.0314,
+        0.2631,
+        0.5793,
+        0.851
+      ]
+    },
+    {
+      "umbral": 0.65,
+      "sensibilidad": 0.7213,
+      "sens_ic95": [
+        0.5983,
+        0.8181
+      ],
+      "especificidad": 0.8056,
+      "espec_ic95": [
+        0.6497,
+        0.9025
+      ],
+      "precision": 0.8627,
+      "precision_ic95": [
+        0.7428,
+        0.9319
+      ],
+      "f1": 0.7857,
+      "exactitud": 0.7526,
+      "vp": 44,
+      "vn": 29,
+      "fp": 7,
+      "fn": 17,
+      "vpp": [
+        0.0361,
+        0.2919,
+        0.6139,
+        0.8683
+      ]
+    },
+    {
+      "umbral": 0.8,
+      "sensibilidad": 0.623,
+      "sens_ic95": [
+        0.4975,
+        0.7339
+      ],
+      "especificidad": 0.8611,
+      "espec_ic95": [
+        0.7134,
+        0.9392
+      ],
+      "precision": 0.8837,
+      "precision_ic95": [
+        0.7552,
+        0.9493
+      ],
+      "f1": 0.7308,
+      "exactitud": 0.7113,
+      "vp": 38,
+      "vn": 31,
+      "fp": 5,
+      "fn": 23,
+      "vpp": [
+        0.0433,
+        0.3326,
+        0.6578,
+        0.8886
+      ]
+    },
+    {
+      "umbral": 0.9,
+      "sensibilidad": 0.541,
+      "sens_ic95": [
+        0.4172,
+        0.6599
+      ],
+      "especificidad": 0.9167,
+      "espec_ic95": [
+        0.7817,
+        0.9713
+      ],
+      "precision": 0.9167,
+      "precision_ic95": [
+        0.7817,
+        0.9713
+      ],
+      "f1": 0.6804,
+      "exactitud": 0.6804,
+      "vp": 33,
+      "vn": 33,
+      "fp": 3,
+      "fn": 28,
+      "vpp": [
+        0.0615,
+        0.419,
+        0.7356,
+        0.9203
+      ]
+    }
+  ]
+}

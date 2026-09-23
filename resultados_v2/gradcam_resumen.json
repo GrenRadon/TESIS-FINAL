@@ -1,0 +1,40 @@
+{
+  "corrida": "v4 · configuracion DESPLEGADA (sin volteo), 97 casos",
+  "resumen": {
+    "FP_pediatrico": {
+      "n": 4,
+      "n_validos": 4,
+      "degenerados": 0,
+      "centro_masa_y": 0.5835,
+      "frac_tercio_inferior": 0.424
+    },
+    "TP_chiari_pediatrico": {
+      "n": 20,
+      "n_validos": 20,
+      "degenerados": 0,
+      "centro_masa_y": 0.5988,
+      "frac_tercio_inferior": 0.4755
+    },
+    "TP_chiari_adulto": {
+      "n": 76,
+      "n_validos": 76,
+      "degenerados": 0,
+      "centro_masa_y": 0.5408,
+      "frac_tercio_inferior": 0.3874
+    },
+    "TN_normal_adulto": {
+      "n": 16,
+      "n_validos": 16,
+      "degenerados": 0,
+      "centro_masa_y": 0.7159,
+      "frac_tercio_inferior": 0.672
+    }
+  },
+  "comparaciones": {
+    "FP_pediatrico_vs_TP_chiari_pediatrico": 0.911,
+    "FP_pediatrico_vs_TP_chiari_adulto": 0.5576,
+    "TP_chiari_pediatrico_vs_TP_chiari_adulto": 0.0177
+  },
+  "corte_pediatrico": 18.0,
+  "ultima_conv": "conv5_block16_concat"
+}

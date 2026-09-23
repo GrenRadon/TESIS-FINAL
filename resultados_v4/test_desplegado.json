@@ -1,0 +1,109 @@
+{
+  "artefacto": "chiari_DenseNet121_final_v4_sin_flip.onnx",
+  "umbral": 0.1484,
+  "entrenamiento_del_artefacto": "entrenamiento_final_v4.py --sin-flip: UN modelo reentrenado sobre los 97 casos de desarrollo completos",
+  "prediccion_del_ensamble": "promedio de los 5 modelos de pliegue (columna prob_ensamble de test_sin_flip.csv)",
+  "n_imagenes": 29,
+  "n_casos": 20,
+  "desplegado_por_imagen": {
+    "auc": 0.875,
+    "auc_ic95": [
+      0.7043,
+      0.9933
+    ],
+    "n_bootstrap_validos": 1991,
+    "sensibilidad": 0.875,
+    "sens_ic95": [
+      0.69,
+      0.9566
+    ],
+    "especificidad": 0.8,
+    "espec_ic95": [
+      0.3755,
+      0.9638
+    ],
+    "f1": 0.913,
+    "vp": 21,
+    "vn": 4,
+    "fp": 1,
+    "fn": 3
+  },
+  "desplegado_por_caso": {
+    "auc": 0.8933,
+    "auc_ic95": [
+      0.6786,
+      1.0
+    ],
+    "n_bootstrap_validos": 1991,
+    "sensibilidad": 0.9333,
+    "sens_ic95": [
+      0.7018,
+      0.9881
+    ],
+    "especificidad": 0.8,
+    "espec_ic95": [
+      0.3755,
+      0.9638
+    ],
+    "f1": 0.9333,
+    "vp": 14,
+    "vn": 4,
+    "fp": 1,
+    "fn": 1
+  },
+  "ensamble_por_imagen": {
+    "auc": 0.8583,
+    "auc_ic95": [
+      0.6916,
+      0.98
+    ],
+    "n_bootstrap_validos": 1991,
+    "sensibilidad": 0.9167,
+    "sens_ic95": [
+      0.7415,
+      0.9768
+    ],
+    "especificidad": 0.2,
+    "espec_ic95": [
+      0.0362,
+      0.6245
+    ],
+    "f1": 0.88,
+    "vp": 22,
+    "vn": 1,
+    "fp": 4,
+    "fn": 2
+  },
+  "ensamble_por_caso": {
+    "auc": 0.8933,
+    "auc_ic95": [
+      0.7033,
+      1.0
+    ],
+    "n_bootstrap_validos": 1991,
+    "sensibilidad": 1.0,
+    "sens_ic95": [
+      0.7961,
+      1.0
+    ],
+    "especificidad": 0.2,
+    "espec_ic95": [
+      0.0362,
+      0.6245
+    ],
+    "f1": 0.8824,
+    "vp": 15,
+    "vn": 1,
+    "fp": 4,
+    "fn": 0
+  },
+  "comparacion_escalas": {
+    "n": 29,
+    "correlacion_pearson": 0.9493,
+    "dif_media": 0.0769,
+    "dif_mediana": 0.0279,
+    "dif_maxima": 0.3926,
+    "clasificaciones_coincidentes": "25/29"
+  },
+  "nota": "El artefacto desplegado y el ensamble son objetos distintos. El umbral 0,1484 se eligio sobre las predicciones out-of-fold, que produce el ensamble. Esta comparacion mide si trasladarlo al modelo unico es defendible."
+}

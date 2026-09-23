@@ -1,0 +1,21 @@
+{
+  "casos_manifiesto": 120,
+  "casos_manifiesto_ch": 76,
+  "casos_manifiesto_no": 44,
+  "entradas_archivo": 210,
+  "unicas": 180,
+  "dup_eliminados": 30,
+  "mal_etiquetadas": 3,
+  "excl_fosa_img": 3,
+  "excl_fosa_casos": 3,
+  "incluidas_img": 177,
+  "incluidas_casos": 117,
+  "desarrollo_chiari_img": 107,
+  "desarrollo_chiari_casos": 61,
+  "test_chiari_img": 24,
+  "test_chiari_casos": 15,
+  "test_normal_img": 5,
+  "test_normal_casos": 5,
+  "desarrollo_normal_img": 41,
+  "desarrollo_normal_casos": 36
+}

@@ -1,0 +1,12 @@
+{
+  "max_dif_tensor": 0.0,
+  "max_dif_prob": 0.0,
+  "max_dif_keras_onnx": 5.96e-08,
+  "tres_fuentes_coinciden": true,
+  "onnx_mb": 28.1,
+  "latencia_inferencia_p50_ms": 35.4,
+  "latencia_inferencia_p95_ms": 50.4,
+  "latencia_extremo_p50_ms": 39.1,
+  "latencia_extremo_p95_ms": 54.8,
+  "rnf02_cumple": true
+}

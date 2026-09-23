@@ -1,0 +1,8 @@
+# Dependencias de EJECUCION de la aplicacion. No incluye TensorFlow: el modelo se sirve en
+# formato ONNX y la normalizacion especifica de la arquitectura viaja dentro del grafo
+# exportado (RNF04). TensorFlow solo hace falta para reentrenar, no para usar la herramienta.
+streamlit==1.56.0
+onnxruntime==1.23.2
+numpy==2.2.6
+Pillow==12.2.0
+opencv-python-headless==4.13.0.92

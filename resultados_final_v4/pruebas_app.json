@@ -1,0 +1,104 @@
+{
+  "modelo": "chiari_DenseNet121_final_v4_sin_flip.onnx",
+  "umbral": 0.1484,
+  "superadas": 16,
+  "total": 16,
+  "pruebas": [
+    {
+      "categoria": "formatos",
+      "prueba": "acepta JPEG",
+      "ok": true,
+      "detalle": "probabilidad 0.9974"
+    },
+    {
+      "categoria": "formatos",
+      "prueba": "acepta PNG",
+      "ok": true,
+      "detalle": "probabilidad 0.9971"
+    },
+    {
+      "categoria": "formatos",
+      "prueba": "acepta escala de grises de 16 bits",
+      "ok": true,
+      "detalle": "convertida sin error, probabilidad 0.9969"
+    },
+    {
+      "categoria": "formatos",
+      "prueba": "acepta imagen con canal alfa (RGBA)",
+      "ok": true,
+      "detalle": "probabilidad 0.9971"
+    },
+    {
+      "categoria": "robustez",
+      "prueba": "rechaza archivo vacío",
+      "ok": true,
+      "detalle": "rechazado con UnidentifiedImageError"
+    },
+    {
+      "categoria": "robustez",
+      "prueba": "rechaza bytes corruptos",
+      "ok": true,
+      "detalle": "rechazado con UnidentifiedImageError"
+    },
+    {
+      "categoria": "robustez",
+      "prueba": "rechaza texto renombrado como .png",
+      "ok": true,
+      "detalle": "rechazado con UnidentifiedImageError"
+    },
+    {
+      "categoria": "robustez",
+      "prueba": "procesa imagen de 1x1 px sin caerse",
+      "ok": true,
+      "detalle": "NO la rechaza: devuelve 0.9996 para 1x1 px. Sin control de calidad, una imagen inválida obtiene veredicto"
+    },
+    {
+      "categoria": "robustez",
+      "prueba": "procesa ruido aleatorio sin caerse",
+      "ok": true,
+      "detalle": "NO lo rechaza: ruido puro obtiene 0.9147 (COMPATIBLE con MC-I)"
+    },
+    {
+      "categoria": "tamano",
+      "prueba": "límite de subida declarado (10 MB)",
+      "ok": true,
+      "detalle": ".streamlit\\config.toml declara maxUploadSize = 10 MB"
+    },
+    {
+      "categoria": "tamano",
+      "prueba": "procesa imagen muy grande (4000x4000)",
+      "ok": true,
+      "detalle": "procesada en 353 ms, probabilidad 0.1767"
+    },
+    {
+      "categoria": "latencia",
+      "prueba": "latencia secuencial p95 < 1 s (RNF02)",
+      "ok": true,
+      "detalle": "p50=42 ms · p95=47 ms · max=49 ms"
+    },
+    {
+      "categoria": "concurrencia",
+      "prueba": "estable con 8 peticiones concurrentes",
+      "ok": true,
+      "detalle": "24 peticiones en 8 hilos, 669 ms totales, todas idénticas"
+    },
+    {
+      "categoria": "determinismo",
+      "prueba": "misma imagen → misma probabilidad",
+      "ok": true,
+      "detalle": "10 ejecuciones, valor único 0.997106"
+    },
+    {
+      "categoria": "salida",
+      "prueba": "salida siempre en [0, 1]",
+      "ok": true,
+      "detalle": "15 imágenes, rango [0.0038, 1.0000]"
+    },
+    {
+      "categoria": "integridad",
+      "prueba": "config y modelo sincronizados",
+      "ok": true,
+      "detalle": "1 modelo(s); config apunta a chiari_DenseNet121_final_v4_sin_flip.onnx"
+    }
+  ]
+}

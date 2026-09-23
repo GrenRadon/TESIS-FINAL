@@ -1,0 +1,12 @@
+{
+  "_nota": "Conjunto de prueba SELLADO el 2026-08-31 con semilla 42 sobre los 101 casos entonces disponibles. Se congela aqui para que no se mueva cuando cambie la composicion del dataset (exclusiones, nuevas imagenes). Un caso que se excluya y estuviera en test se retira del test; NUNCA se sustituye por otro, porque eso equivaldria a re-sortear el test.",
+  "sellado": "2026-08-31",
+  "semilla": 42,
+  "chiari": ["15819", "174013", "202843", "204388", "218109", "22950", "24258", "2592",
+             "41185", "42945", "44621", "50409", "57986", "70264", "84242"],
+  "normal": ["https://radiopaedia.org/cases/normal-brain-myelination-mri-3-month-old-1?lang=us",
+             "https://radiopaedia.org/cases/normal-midline-brain-mri-2?lang=us",
+             "https://radiopaedia.org/cases/normal-mri-brain-12-month-old?lang=us",
+             "https://radiopaedia.org/cases/normal-mri-brain-1?lang=us",
+             "https://radiopaedia.org/cases/normal-mri-brain-including-mr-venogram?lang=us"]
+}

@@ -1,0 +1,19 @@
+{
+  "con volteo": {
+    "umbral": 0.1903,
+    "onnx_mb": 28.1,
+    "lat_inf_p95": 40.1,
+    "lat_ext_p95": 43.1,
+    "rnf02": true
+  },
+  "sin volteo": {
+    "umbral": 0.1484,
+    "onnx_mb": 28.1,
+    "lat_inf_p95": 36.4,
+    "lat_ext_p95": 40.2,
+    "rnf02": true
+  },
+  "acuerdo_decision": 1.0,
+  "correlacion_probs": 0.2129,
+  "nota": "Comparacion sobre datos de desarrollo, que ambos modelos vieron en entrenamiento: mide cuanto difieren entre si, NO su desempeno. El test sellado no se vuelve a mirar."
+}

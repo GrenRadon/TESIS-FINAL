@@ -1,0 +1,12 @@
+{
+  "fase": "completado",
+  "folds_hechos": 5,
+  "actualizado": "04:02:07",
+  "transcurrido_min": 27.6,
+  "total_folds": 5,
+  "max_dif": 0.0,
+  "media_dif": 0.0,
+  "n_comparadas": 148,
+  "identicas_1e6": 148,
+  "nota": "Emparejado por ruta. La comparacion previa usaba el nombre de archivo y colapsaba las 3 imagenes con nombre repetido entre carpetas, dando un falso max|dif|=0,7039."
+}

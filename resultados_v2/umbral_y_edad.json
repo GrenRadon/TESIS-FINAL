@@ -1,0 +1,502 @@
+{
+  "oof_caso": {
+    "auc": 0.9639,
+    "umbral_youden": 0.8322,
+    "umbral_f1": 0.6337,
+    "en_0_5": {
+      "umbral": 0.5,
+      "tp": 58,
+      "tn": 12,
+      "fp": 8,
+      "fn": 3,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.6,
+      "espec_ic95": [
+        0.3866,
+        0.7812
+      ],
+      "youden": 0.5508,
+      "f1": 0.9134,
+      "accuracy": 0.8642
+    },
+    "en_youden": {
+      "umbral": 0.8322,
+      "tp": 51,
+      "tn": 20,
+      "fp": 0,
+      "fn": 10,
+      "sensibilidad": 0.8361,
+      "sens_ic95": [
+        0.7239,
+        0.9084
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.8389,
+        1.0
+      ],
+      "youden": 0.8361,
+      "f1": 0.9107,
+      "accuracy": 0.8765
+    },
+    "en_f1": {
+      "umbral": 0.6337,
+      "tp": 58,
+      "tn": 17,
+      "fp": 3,
+      "fn": 3,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.85,
+      "espec_ic95": [
+        0.6396,
+        0.9476
+      ],
+      "youden": 0.8008,
+      "f1": 0.9508,
+      "accuracy": 0.9259
+    },
+    "umbral_sens_min": 0.6337,
+    "en_sens_min": {
+      "umbral": 0.6337,
+      "tp": 58,
+      "tn": 17,
+      "fp": 3,
+      "fn": 3,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.85,
+      "espec_ic95": [
+        0.6396,
+        0.9476
+      ],
+      "youden": 0.8008,
+      "f1": 0.9508,
+      "accuracy": 0.9259
+    }
+  },
+  "roc_caso": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.05,
+      0.1,
+      0.1,
+      0.15,
+      0.15,
+      0.5,
+      0.5,
+      0.6,
+      0.6,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.01639,
+      0.83607,
+      0.83607,
+      0.88525,
+      0.88525,
+      0.93443,
+      0.93443,
+      0.95082,
+      0.95082,
+      0.98361,
+      0.98361,
+      1.0,
+      1.0
+    ],
+    "thr": [
+      Infinity,
+      0.99884,
+      0.83217,
+      0.81553,
+      0.75087,
+      0.7249,
+      0.65874,
+      0.65331,
+      0.63375,
+      0.42178,
+      0.4007,
+      0.37019,
+      0.36152,
+      0.02463
+    ]
+  },
+  "oof_imagen": {
+    "auc": 0.9727,
+    "umbral_youden": 0.7436,
+    "umbral_f1": 0.5712,
+    "en_0_5": {
+      "umbral": 0.5,
+      "tp": 104,
+      "tn": 16,
+      "fp": 9,
+      "fn": 3,
+      "sensibilidad": 0.972,
+      "sens_ic95": [
+        0.9208,
+        0.9904
+      ],
+      "especificidad": 0.64,
+      "espec_ic95": [
+        0.4452,
+        0.7975
+      ],
+      "youden": 0.612,
+      "f1": 0.9455,
+      "accuracy": 0.9091
+    },
+    "en_youden": {
+      "umbral": 0.7436,
+      "tp": 96,
+      "tn": 24,
+      "fp": 1,
+      "fn": 11,
+      "sensibilidad": 0.8972,
+      "sens_ic95": [
+        0.8252,
+        0.9416
+      ],
+      "especificidad": 0.96,
+      "espec_ic95": [
+        0.8046,
+        0.9929
+      ],
+      "youden": 0.8572,
+      "f1": 0.9412,
+      "accuracy": 0.9091
+    },
+    "en_f1": {
+      "umbral": 0.5712,
+      "tp": 104,
+      "tn": 22,
+      "fp": 3,
+      "fn": 3,
+      "sensibilidad": 0.972,
+      "sens_ic95": [
+        0.9208,
+        0.9904
+      ],
+      "especificidad": 0.88,
+      "espec_ic95": [
+        0.7004,
+        0.9583
+      ],
+      "youden": 0.852,
+      "f1": 0.972,
+      "accuracy": 0.9545
+    }
+  },
+  "roc_imagen": {
+    "fpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.04,
+      0.04,
+      0.08,
+      0.08,
+      0.12,
+      0.12,
+      0.44,
+      0.44,
+      0.88,
+      0.88,
+      1.0
+    ],
+    "tpr": [
+      0.0,
+      0.00935,
+      0.82243,
+      0.82243,
+      0.8972,
+      0.8972,
+      0.92523,
+      0.92523,
+      0.97196,
+      0.97196,
+      0.99065,
+      0.99065,
+      1.0,
+      1.0
+    ],
+    "thr": [
+      Infinity,
+      0.99967,
+      0.81673,
+      0.81553,
+      0.7436,
+      0.7249,
+      0.66174,
+      0.65331,
+      0.59528,
+      0.4624,
+      0.4007,
+      0.06471,
+      0.06129,
+      0.02463
+    ]
+  },
+  "sens_min": 0.95,
+  "test_caso": {
+    "en_0_5": {
+      "umbral": 0.5,
+      "tp": 13,
+      "tn": 5,
+      "fp": 0,
+      "fn": 2,
+      "sensibilidad": 0.8667,
+      "sens_ic95": [
+        0.6212,
+        0.9626
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.5655,
+        1.0
+      ],
+      "youden": 0.8667,
+      "f1": 0.9286,
+      "accuracy": 0.9
+    },
+    "en_youden": {
+      "umbral": 0.8322,
+      "tp": 10,
+      "tn": 5,
+      "fp": 0,
+      "fn": 5,
+      "sensibilidad": 0.6667,
+      "sens_ic95": [
+        0.4171,
+        0.8482
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.5655,
+        1.0
+      ],
+      "youden": 0.6667,
+      "f1": 0.8,
+      "accuracy": 0.75
+    },
+    "en_umbral_recomendado": {
+      "umbral": 0.6337,
+      "tp": 12,
+      "tn": 5,
+      "fp": 0,
+      "fn": 3,
+      "sensibilidad": 0.8,
+      "sens_ic95": [
+        0.5481,
+        0.9295
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.5655,
+        1.0
+      ],
+      "youden": 0.8,
+      "f1": 0.8889,
+      "accuracy": 0.85
+    }
+  },
+  "test_imagen": {
+    "en_0_5": {
+      "umbral": 0.5,
+      "tp": 21,
+      "tn": 5,
+      "fp": 0,
+      "fn": 3,
+      "sensibilidad": 0.875,
+      "sens_ic95": [
+        0.69,
+        0.9566
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.5655,
+        1.0
+      ],
+      "youden": 0.875,
+      "f1": 0.9333,
+      "accuracy": 0.8966
+    },
+    "en_youden": {
+      "umbral": 0.8322,
+      "tp": 17,
+      "tn": 5,
+      "fp": 0,
+      "fn": 7,
+      "sensibilidad": 0.7083,
+      "sens_ic95": [
+        0.5083,
+        0.8509
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.5655,
+        1.0
+      ],
+      "youden": 0.7083,
+      "f1": 0.8293,
+      "accuracy": 0.7586
+    },
+    "en_umbral_recomendado": {
+      "umbral": 0.6337,
+      "tp": 20,
+      "tn": 5,
+      "fp": 0,
+      "fn": 4,
+      "sensibilidad": 0.8333,
+      "sens_ic95": [
+        0.6415,
+        0.9332
+      ],
+      "especificidad": 1.0,
+      "espec_ic95": [
+        0.5655,
+        1.0
+      ],
+      "youden": 0.8333,
+      "f1": 0.9091,
+      "accuracy": 0.8621
+    }
+  },
+  "estratificacion_edad": {
+    "0,5": {
+      "pediatrico": {
+        "n_neg": 7,
+        "fp": 5,
+        "tasa_fp": 0.7143,
+        "fp_ic95": [
+          0.3589,
+          0.9178
+        ],
+        "n_pos": 11,
+        "fn": 0
+      },
+      "adulto": {
+        "n_neg": 11,
+        "fp": 2,
+        "tasa_fp": 0.1818,
+        "fp_ic95": [
+          0.0514,
+          0.477
+        ],
+        "n_pos": 42,
+        "fn": 3
+      },
+      "desconocida": {
+        "n_neg": 2,
+        "fp": 1,
+        "tasa_fp": 0.5,
+        "fp_ic95": [
+          0.0945,
+          0.9055
+        ],
+        "n_pos": 8,
+        "fn": 0
+      },
+      "fisher": {
+        "tabla": [
+          [
+            5,
+            2
+          ],
+          [
+            2,
+            9
+          ]
+        ],
+        "odds_ratio": 11.25,
+        "p_valor": 0.0491
+      }
+    },
+    "0.634": {
+      "pediatrico": {
+        "n_neg": 7,
+        "fp": 1,
+        "tasa_fp": 0.1429,
+        "fp_ic95": [
+          0.0257,
+          0.5131
+        ],
+        "n_pos": 11,
+        "fn": 0
+      },
+      "adulto": {
+        "n_neg": 11,
+        "fp": 1,
+        "tasa_fp": 0.0909,
+        "fp_ic95": [
+          0.0162,
+          0.3774
+        ],
+        "n_pos": 42,
+        "fn": 3
+      },
+      "desconocida": {
+        "n_neg": 2,
+        "fp": 1,
+        "tasa_fp": 0.5,
+        "fp_ic95": [
+          0.0945,
+          0.9055
+        ],
+        "n_pos": 8,
+        "fn": 0
+      },
+      "fisher": {
+        "tabla": [
+          [
+            1,
+            6
+          ],
+          [
+            1,
+            10
+          ]
+        ],
+        "odds_ratio": 1.6667,
+        "p_valor": 1.0
+      }
+    }
+  },
+  "corte_pediatrico": 18.0,
+  "distribucion_prob_por_edad": {
+    "NORMAL": {
+      "n_ped": 7,
+      "media_ped": 0.5068,
+      "n_adu": 11,
+      "media_adu": 0.2893,
+      "mannwhitney_p": 0.0346
+    },
+    "CHIARI": {
+      "n_ped": 11,
+      "media_ped": 0.8997,
+      "n_adu": 42,
+      "media_adu": 0.8851,
+      "mannwhitney_p": 0.8009
+    }
+  },
+  "fragilidad_fisher": {
+    "observado": 0.0491,
+    "un_FP_pediatrico_menos": 0.1414,
+    "un_FP_pediatrico_mas": 0.0128,
+    "un_FP_adulto_mas": 0.1448
+  },
+  "umbral_elegido": 0.633749
+}

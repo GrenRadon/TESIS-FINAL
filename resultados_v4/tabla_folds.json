@@ -1,0 +1,316 @@
+{
+  "filas": [
+    {
+      "variante": "DenseNet121 (base)",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.9091,
+      "cw_normal": 1.75,
+      "cw_chiari": 0.7
+    },
+    {
+      "variante": "DenseNet121 (base)",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9938,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 (base)",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.8281,
+      "cw_normal": 1.7575757575757576,
+      "cw_chiari": 0.6987951807228916
+    },
+    {
+      "variante": "DenseNet121 (base)",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.8333,
+      "cw_normal": 1.8870967741935485,
+      "cw_chiari": 0.6802325581395349
+    },
+    {
+      "variante": "DenseNet121 (base)",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9125,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "EfficientNetB0 (base)",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.8766,
+      "cw_normal": 1.75,
+      "cw_chiari": 0.7
+    },
+    {
+      "variante": "EfficientNetB0 (base)",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.8375,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "EfficientNetB0 (base)",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.9427,
+      "cw_normal": 1.7575757575757576,
+      "cw_chiari": 0.6987951807228916
+    },
+    {
+      "variante": "EfficientNetB0 (base)",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.7476,
+      "cw_normal": 1.8870967741935485,
+      "cw_chiari": 0.6802325581395349
+    },
+    {
+      "variante": "EfficientNetB0 (base)",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.775,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "ResNet50V2 (base)",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.7792,
+      "cw_normal": 1.75,
+      "cw_chiari": 0.7
+    },
+    {
+      "variante": "ResNet50V2 (base)",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.75,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "ResNet50V2 (base)",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.7812,
+      "cw_normal": 1.7575757575757576,
+      "cw_chiari": 0.6987951807228916
+    },
+    {
+      "variante": "ResNet50V2 (base)",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.9048,
+      "cw_normal": 1.8870967741935485,
+      "cw_chiari": 0.6802325581395349
+    },
+    {
+      "variante": "ResNet50V2 (base)",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.8938,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 + early stopping",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.961,
+      "cw_normal": 1.75,
+      "cw_chiari": 0.7
+    },
+    {
+      "variante": "DenseNet121 + early stopping",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 1.0,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 + early stopping",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.849,
+      "cw_normal": 1.7575757575757576,
+      "cw_chiari": 0.6987951807228916
+    },
+    {
+      "variante": "DenseNet121 + early stopping",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.8667,
+      "cw_normal": 1.8870967741935485,
+      "cw_chiari": 0.6802325581395349
+    },
+    {
+      "variante": "DenseNet121 + early stopping",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9187,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 sin volteo (DESPLEGADA)",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.8506,
+      "cw_normal": 1.75,
+      "cw_chiari": 0.7
+    },
+    {
+      "variante": "DenseNet121 sin volteo (DESPLEGADA)",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9625,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 sin volteo (DESPLEGADA)",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.9167,
+      "cw_normal": 1.7575757575757576,
+      "cw_chiari": 0.6987951807228916
+    },
+    {
+      "variante": "DenseNet121 sin volteo (DESPLEGADA)",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.7429,
+      "cw_normal": 1.8870967741935485,
+      "cw_chiari": 0.6802325581395349
+    },
+    {
+      "variante": "DenseNet121 sin volteo (DESPLEGADA)",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9062,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 sin CLAHE",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.8961,
+      "cw_normal": 1.75,
+      "cw_chiari": 0.7
+    },
+    {
+      "variante": "DenseNet121 sin CLAHE",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9563,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    },
+    {
+      "variante": "DenseNet121 sin CLAHE",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.8958,
+      "cw_normal": 1.7575757575757576,
+      "cw_chiari": 0.6987951807228916
+    },
+    {
+      "variante": "DenseNet121 sin CLAHE",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.8571,
+      "cw_normal": 1.8870967741935485,
+      "cw_chiari": 0.6802325581395349
+    },
+    {
+      "variante": "DenseNet121 sin CLAHE",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.95,
+      "cw_normal": 1.8181818181818181,
+      "cw_chiari": 0.6896551724137931
+    }
+  ],
+  "rangos": {
+    "n_train": [
+      116,
+      120
+    ],
+    "n_val": [
+      28,
+      32
+    ],
+    "cw_normal": [
+      1.75,
+      1.89
+    ],
+    "cw_chiari": [
+      0.68,
+      0.7
+    ]
+  },
+  "entorno": {
+    "python": "3.10.0",
+    "tensorflow": "2.21.0",
+    "keras": "3.12.1",
+    "plataforma": "Windows-10-10.0.26200-SP0",
+    "procesador": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "gpus": 0,
+    "pipeline": "2.0.0",
+    "semilla": 42
+  },
+  "epocas": {
+    "DenseNet121": [
+      40,
+      15
+    ],
+    "EfficientNetB0": [
+      30,
+      15
+    ],
+    "ResNet50V2": [
+      24,
+      15
+    ]
+  }
+}

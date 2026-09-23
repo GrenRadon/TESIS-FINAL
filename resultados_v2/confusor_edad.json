@@ -1,0 +1,87 @@
+{
+  "incoherencias_edad": [
+    [
+      "normal",
+      20,
+      0.5,
+      1.25,
+      "normal-mri-brain-myelination-15-month-old-2?"
+    ]
+  ],
+  "composicion_clase_edad": {
+    "2": {
+      "p_chiari_ped": 0.25,
+      "p_chiari_adu": 0.619,
+      "n_ped": 4,
+      "n_adu": 84
+    },
+    "5": {
+      "p_chiari_ped": 0.375,
+      "p_chiari_adu": 0.625,
+      "n_ped": 8,
+      "n_adu": 80
+    },
+    "18": {
+      "p_chiari_ped": 0.579,
+      "p_chiari_adu": 0.609,
+      "n_ped": 19,
+      "n_adu": 69
+    }
+  },
+  "efecto_etario": {
+    "v2 pipeline antiguo|A": {
+      "n_ped": 7,
+      "n_adu": 12,
+      "media_ped": 0.5068,
+      "media_adu": 0.297,
+      "mannwhitney_p": 0.0358,
+      "fisher_p": 0.0449
+    },
+    "v2 pipeline antiguo|B": {
+      "n_ped": 8,
+      "n_adu": 11,
+      "media_ped": 0.3839,
+      "media_adu": 0.385,
+      "mannwhitney_p": 1.0,
+      "fisher_p": 1.0
+    },
+    "v4 base (con volteo)|A": {
+      "n_ped": 8,
+      "n_adu": 27,
+      "media_ped": 0.3741,
+      "media_adu": 0.3033,
+      "mannwhitney_p": 0.3841,
+      "fisher_p": 1.0
+    },
+    "v4 base (con volteo)|B": {
+      "n_ped": 10,
+      "n_adu": 25,
+      "media_ped": 0.31,
+      "media_adu": 0.313,
+      "mannwhitney_p": 0.6481,
+      "fisher_p": 1.0
+    },
+    "v4 sin volteo DESPLEGADA|A": {
+      "n_ped": 8,
+      "n_adu": 27,
+      "media_ped": 0.36,
+      "media_adu": 0.2838,
+      "mannwhitney_p": 0.4282,
+      "fisher_p": 1.0
+    },
+    "v4 sin volteo DESPLEGADA|B": {
+      "n_ped": 10,
+      "n_adu": 25,
+      "media_ped": 0.2666,
+      "media_adu": 0.2914,
+      "mannwhitney_p": 0.7842,
+      "fisher_p": 0.4543
+    }
+  },
+  "atajo_tamano": {
+    "p_area": 0.06295,
+    "auc_solo_dimensiones_caso": 0.5756,
+    "area_mediana_chiari": 117288.0,
+    "area_mediana_normal": 99330.0
+  }
+}

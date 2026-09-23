@@ -1,0 +1,250 @@
+{
+  "sens_min": 0.95,
+  "semilla": 42,
+  "n_bootstrap": 2000,
+  "arquitecturas": {
+    "base_DenseNet121": {
+      "auc": 0.8511,
+      "auc_ic95": [
+        0.7633,
+        0.9253
+      ],
+      "umbral": 0.1903,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.5278,
+      "espec_ic95": [
+        0.3701,
+        0.6801
+      ],
+      "f1": 0.8529,
+      "accuracy": 0.7938,
+      "tp": 58,
+      "tn": 19,
+      "fp": 17,
+      "fn": 3
+    },
+    "base_EfficientNetB0": {
+      "auc": 0.7655,
+      "auc_ic95": [
+        0.6578,
+        0.8602
+      ],
+      "umbral": 0.0371,
+      "sensibilidad": 0.9836,
+      "sens_ic95": [
+        0.9128,
+        0.9971
+      ],
+      "especificidad": 0.25,
+      "espec_ic95": [
+        0.1375,
+        0.4107
+      ],
+      "f1": 0.8108,
+      "accuracy": 0.7113,
+      "tp": 60,
+      "tn": 9,
+      "fp": 27,
+      "fn": 1
+    },
+    "base_ResNet50V2": {
+      "auc": 0.7951,
+      "auc_ic95": [
+        0.6999,
+        0.8859
+      ],
+      "umbral": 0.0362,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.25,
+      "espec_ic95": [
+        0.1375,
+        0.4107
+      ],
+      "f1": 0.7945,
+      "accuracy": 0.6907,
+      "tp": 58,
+      "tn": 9,
+      "fp": 27,
+      "fn": 3
+    }
+  },
+  "comp_arq": {
+    "base_DenseNet121_vs_base_EfficientNetB0": {
+      "d_auc": 0.0841,
+      "ic95": [
+        0.0057,
+        0.169
+      ],
+      "distinguibles": true
+    },
+    "base_DenseNet121_vs_base_ResNet50V2": {
+      "d_auc": 0.0532,
+      "ic95": [
+        -0.0556,
+        0.1642
+      ],
+      "distinguibles": false
+    },
+    "base_EfficientNetB0_vs_base_ResNet50V2": {
+      "d_auc": -0.0309,
+      "ic95": [
+        -0.1437,
+        0.0833
+      ],
+      "distinguibles": false
+    }
+  },
+  "ganadora": "base_DenseNet121",
+  "umbral": 0.1903,
+  "ablaciones": {
+    "referencia": {
+      "auc": 0.8511,
+      "auc_ic95": [
+        0.7633,
+        0.9253
+      ],
+      "umbral": 0.1903,
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.5278,
+      "espec_ic95": [
+        0.3701,
+        0.6801
+      ],
+      "f1": 0.8529,
+      "accuracy": 0.7938,
+      "tp": 58,
+      "tn": 19,
+      "fp": 17,
+      "fn": 3
+    },
+    "control_es": {
+      "auc": 0.9016,
+      "auc_ic95": [
+        0.8327,
+        0.9578
+      ],
+      "umbral": 0.1903,
+      "sensibilidad": 0.9836,
+      "sens_ic95": [
+        0.9128,
+        0.9971
+      ],
+      "especificidad": 0.3333,
+      "espec_ic95": [
+        0.2021,
+        0.4967
+      ],
+      "f1": 0.8276,
+      "accuracy": 0.7423,
+      "tp": 60,
+      "tn": 12,
+      "fp": 24,
+      "fn": 1,
+      "delta_vs_ref": {
+        "d_auc": -0.0519,
+        "ic95": [
+          -0.1124,
+          0.0031
+        ],
+        "distinguibles": false
+      }
+    },
+    "sin_flip": {
+      "auc": 0.8456,
+      "auc_ic95": [
+        0.7608,
+        0.9209
+      ],
+      "umbral": 0.1903,
+      "sensibilidad": 0.918,
+      "sens_ic95": [
+        0.8221,
+        0.9645
+      ],
+      "especificidad": 0.5556,
+      "espec_ic95": [
+        0.3958,
+        0.7046
+      ],
+      "f1": 0.8421,
+      "accuracy": 0.7835,
+      "tp": 56,
+      "tn": 20,
+      "fp": 16,
+      "fn": 5,
+      "delta_vs_ref": {
+        "d_auc": 0.0055,
+        "ic95": [
+          -0.0347,
+          0.0478
+        ],
+        "distinguibles": false
+      }
+    },
+    "sin_clahe": {
+      "auc": 0.8957,
+      "auc_ic95": [
+        0.8202,
+        0.9582
+      ],
+      "umbral": 0.1903,
+      "sensibilidad": 0.9672,
+      "sens_ic95": [
+        0.8881,
+        0.991
+      ],
+      "especificidad": 0.5556,
+      "espec_ic95": [
+        0.3958,
+        0.7046
+      ],
+      "f1": 0.8676,
+      "accuracy": 0.8144,
+      "tp": 59,
+      "tn": 20,
+      "fp": 16,
+      "fn": 2,
+      "delta_vs_ref": {
+        "d_auc": -0.045,
+        "ic95": [
+          -0.0943,
+          0.0045
+        ],
+        "distinguibles": false
+      }
+    }
+  },
+  "test": {
+    "auc": 0.8933,
+    "n_casos": 20,
+    "umbral": 0.1903,
+    "sensibilidad": 0.9333,
+    "sens_ic95": [
+      0.7018,
+      0.9881
+    ],
+    "especificidad": 0.4,
+    "espec_ic95": [
+      0.1176,
+      0.7693
+    ],
+    "f1": 0.875,
+    "accuracy": 0.8,
+    "tp": 14,
+    "tn": 2,
+    "fp": 3,
+    "fn": 1
+  }
+}

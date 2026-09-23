@@ -1,0 +1,16 @@
+{
+  "fase": "completado",
+  "arquitectura": "DenseNet121",
+  "umbral": 0.1484,
+  "epocas_f1": 40,
+  "epocas_f2": 15,
+  "n_imagenes": 148,
+  "n_casos": 97,
+  "actualizado": "00:21:05",
+  "transcurrido_min": 6.3,
+  "epoca": 15,
+  "epocas_total": 15,
+  "loss": 0.0797,
+  "auc": 1.0,
+  "variante": "sin_flip"
+}

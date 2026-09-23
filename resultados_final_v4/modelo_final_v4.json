@@ -1,0 +1,25 @@
+{
+  "arquitectura": "DenseNet121",
+  "umbral": 0.1903,
+  "epocas_f1": 40,
+  "epocas_f2": 15,
+  "n_imagenes": 148,
+  "n_casos": 97,
+  "class_weight": {
+    "0": 1.8048780487804879,
+    "1": 0.6915887850467289
+  },
+  "modelo": "models_final_v4\\chiari_DenseNet121_final_v4.keras",
+  "tamano_mb": 31.5,
+  "latencia_keras_p50_ms": 152.2,
+  "latencia_keras_p95_ms": 167.1,
+  "pipeline": "2.0.0",
+  "semilla": 42,
+  "config": "base_DenseNet121 (con volteo y CLAHE, igual que la variante que produjo las metricas primarias)",
+  "entorno": {
+    "tensorflow": "2.21.0",
+    "keras": "3.12.1",
+    "plataforma": "Windows-10-10.0.26200-SP0",
+    "gpus": 0
+  }
+}

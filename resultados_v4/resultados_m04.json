@@ -1,0 +1,84 @@
+{
+  "esquema": "comparacion descriptiva sobre el mismo OOF de 5 pliegues",
+  "semilla": 42,
+  "referencia": "class_weight (DESPLEGADA)",
+  "variantes": {
+    "class_weight (DESPLEGADA)": {
+      "umbral": 0.1484,
+      "auc": 0.8456,
+      "auc_ic95": [
+        0.7608,
+        0.9209
+      ],
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.5278,
+      "espec_ic95": [
+        0.3701,
+        0.6801
+      ],
+      "f1": 0.8529,
+      "cm": "58/19/17/3"
+    },
+    "focal loss (a=0,25 g=2)": {
+      "umbral": 0.2161,
+      "auc": 0.8438,
+      "auc_ic95": [
+        0.7595,
+        0.9189
+      ],
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.3611,
+      "espec_ic95": [
+        0.2248,
+        0.5242
+      ],
+      "f1": 0.8169,
+      "cm": "58/13/23/3",
+      "delta_vs_ref": {
+        "d_auc": 0.0022,
+        "ic95": [
+          -0.0215,
+          0.0274
+        ],
+        "distinguibles": false
+      }
+    },
+    "muestreo balanceado": {
+      "umbral": 0.1582,
+      "auc": 0.8283,
+      "auc_ic95": [
+        0.7328,
+        0.9081
+      ],
+      "sensibilidad": 0.9508,
+      "sens_ic95": [
+        0.8651,
+        0.9831
+      ],
+      "especificidad": 0.4722,
+      "espec_ic95": [
+        0.3199,
+        0.6299
+      ],
+      "f1": 0.8406,
+      "cm": "58/17/19/3",
+      "delta_vs_ref": {
+        "d_auc": 0.0178,
+        "ic95": [
+          -0.0117,
+          0.0532
+        ],
+        "distinguibles": false
+      }
+    }
+  },
+  "conclusion": "Los datos no permiten distinguir entre class_weight, focal loss y muestreo balanceado por lote con n=97 casos. Se retiene class_weight por ser la preespecificada y la desplegada, NO como resultado de una comparacion concluyente."
+}

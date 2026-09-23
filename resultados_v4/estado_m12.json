@@ -1,0 +1,94 @@
+{
+  "fase": "completado",
+  "unidades": [
+    16,
+    64
+  ],
+  "folds_hechos": 10,
+  "folds": [
+    {
+      "unidades": 16,
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.8831,
+      "minutos": 5.2
+    },
+    {
+      "unidades": 16,
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.975,
+      "minutos": 5.0
+    },
+    {
+      "unidades": 16,
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.8021,
+      "minutos": 5.2
+    },
+    {
+      "unidades": 16,
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.7762,
+      "minutos": 5.2
+    },
+    {
+      "unidades": 16,
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9062,
+      "minutos": 5.4
+    },
+    {
+      "unidades": 64,
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "auc_val": 0.9156,
+      "minutos": 5.6
+    },
+    {
+      "unidades": 64,
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.975,
+      "minutos": 5.6
+    },
+    {
+      "unidades": 64,
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "auc_val": 0.8698,
+      "minutos": 5.6
+    },
+    {
+      "unidades": 64,
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "auc_val": 0.681,
+      "minutos": 5.7
+    },
+    {
+      "unidades": 64,
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "auc_val": 0.9312,
+      "minutos": 6.0
+    }
+  ],
+  "actualizado": "23:39:44",
+  "transcurrido_min": 55.1,
+  "total_folds": 10,
+  "unidades_actual": 64
+}

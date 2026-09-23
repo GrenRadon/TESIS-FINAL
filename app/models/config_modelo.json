@@ -1,0 +1,12 @@
+{
+  "arquitectura": "DenseNet121",
+  "umbral": 0.1484,
+  "pipeline": "2.0.0",
+  "modelo_origen": "models_final_v4/chiari_DenseNet121_final_v4_sin_flip.keras",
+  "onnx": "chiari_DenseNet121_final_v4_sin_flip.onnx",
+  "tamano_mb": 28.1,
+  "max_dif_keras_onnx": 5.96e-08,
+  "fecha": "2026-09-06",
+  "poblacion_objetivo": "adultos (>=18 anios)",
+  "entrada": "float32 [1,224,224,3] en rango [0,255]; preprocess_input va dentro del modelo"
+}

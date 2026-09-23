@@ -1,0 +1,27 @@
+caso,archivos,dim,edad,sexo,diagnostico,sintoma,url,split,prob
+1,normal_1a.png,240x256,20,M,Normal MRI brain,First episode of psychosis.,normal-mri-brain-1,test,—
+2,normal_2a.png,512x512,30,F,Normal MRI Brain,Atypical neurological symptoms. MRI for screening.,normal-mri-brain-2,desarrollo,0.096
+3,normal_3a.jpg,290x320,20,F,Normal MRI Brain,Worsening headache,normal-mri-brain-3,desarrollo,0.877
+4,normal_4a.png,512x512,20,M,Normal brain MRI,Young patient with psychotic presentation - organic cause?,normal-brain-mri-4,desarrollo,0.003
+5,normal_5a.png,512x512,30,F,Normal brain MRI,Vague headaches.,normal-brain-mri-5,desarrollo,0.636
+6,normal_6a.png,512x512,20,F,Normal brain (MRI),Vague headaches. Otherwise well.,normal-brain-mri-6,desarrollo,0.183
+7,SIN ARCHIVO,,30,F,Normal MRI brain venogram,Patient with a persistent headache and seven previous episodes of lower limb DVT. Intracranial hypertension? Cerebral venous sinus thrombosis?,normal-mri-brain-venogram,EXCLUIDO,—
+8,normal_8a.jpg,510x592,35,F,Normal MRI brain: adult,Giddiness,normal-mri-brain-adult,desarrollo,0.294
+9,normal_9a.png; normal_9b.png,512x512,50,F,Normal brain MRI (TLE protocol),Possible seizures - funny turns.,normal-brain-mri-tle-protocol,desarrollo,0.036
+10,normal_10a.png,525x480,0.5,F,Normal MRI brain - 5-month-old,Febrile convulsions.,normal-mri-brain-5-month-old,desarrollo,0.436
+11,normal_11a.png,562x533,1,M,Normal MRI brain - 12-month-old,Delayed mental milestones.,normal-mri-brain-12-month-old,test,—
+12,normal_12a.png,600x552,1,M,Normal MRI brain myelination - 9-month-old,Febrile convulsions.,normal-mri-brain-myelination-9-month-old-2,desarrollo,0.141
+13,normal_13a.png; normal_13b.png,512x512,55,M,Normal brain MRI (non-focal epilepsy protocol),First presentation of seizure.,normal-brain-mri-non-focal-epilepsy-protocol-3,desarrollo,0.281
+14,normal_14a.png,512x512,55,-,Normal MRI brain including MR venogram,Normal MRI including MRV TRICKS,normal-mri-brain-including-mr-venogram,test,—
+15,normal_15a.jpeg,630x630,2,M,Normal brain MRI 2-year-old,Seizure investigation.,normal-brain-mri-2-year-old,desarrollo,0.636
+16,normal_16a.png,478x498,2,M,Normal MRI brain - 2-year-old,Convulsions,normal-mri-brain-2-year-old,desarrollo,0.150
+17,normal_17a.jpg; normal_17b.jpg,630x630,20,M,Normal brain MRI (non-focal epilepsy protocol),Vague history of inattention. Normal study.,normal-brain-mri-non-focal-epilepsy-protocol-1,desarrollo,0.244
+18,normal_18a.png; normal_18b.png,256x256,35,F,Normal brain MRI with post-contrast FLAIR,Headaches,normal-brain-mri-with-post-contrast-flair,desarrollo,0.444
+19,normal_19a.jpeg,630x630,-,-,Normal midline brain (MRI),-,normal-midline-brain-mri-1,desarrollo,0.035
+20,normal_20a.jpg,460x460,0.5,M,Normal MRI brain myelination - 1.5-month-old,Febrile convulsions,normal-mri-brain-myelination-15-month-old-2,desarrollo,0.593
+21,normal_21a.jpeg; normal_21b.jpeg,512x512,30,F,Normal MRI of the brain (adult),New onset of headaches. Evaluate for intracranial abnormality.,normal-mri-of-the-brain-adult,desarrollo,0.701
+22,normal_22a.jpeg,630x630,-,F,Normal midline brain (MRI),-,normal-midline-brain-mri-2,test,—
+23,normal_23a.png,362x407,0.5,M,Normal brain myelination (MRI) - 3-month-old,Febrile convulsions.,normal-brain-myelination-mri-3-month-old-1,test,—
+24,normal_24a.jpg,320x320,9,M,Normal MRI of the brain - 9-year-old,Altered mental status.,normal-mri-of-the-brain-9-year-old,desarrollo,0.016
+25,normal_25a.jpg,256x256,6,M,Normal pediatric MRI and MRA brain,Delayed speech.,normal-paediatric-mri-and-mra-brain,desarrollo,0.241
+26,normal_26a.jpg,384x384,—,—,—,—,SIN FILA,EXCLUIDO,0.077

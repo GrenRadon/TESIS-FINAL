@@ -1,0 +1,168 @@
+{
+  "esquema": "comparacion directa sobre el mismo OOF de 5 folds (no anidada)",
+  "semilla": 42,
+  "n_bootstrap": 2000,
+  "umbral_comun": 0.1903,
+  "preespecificado": 32,
+  "variantes": {
+    "16": {
+      "auc_oof_caso": 0.8438,
+      "auc_ic95": [
+        0.7593,
+        0.9158
+      ],
+      "n_casos": 97,
+      "en_umbral_comun": {
+        "umbral": 0.1903,
+        "sensibilidad": 0.9344,
+        "sens_ic95": [
+          0.8432,
+          0.9742
+        ],
+        "especificidad": 0.5,
+        "espec_ic95": [
+          0.3447,
+          0.6553
+        ],
+        "f1": 0.8382,
+        "tp": 57,
+        "tn": 18,
+        "fp": 18,
+        "fn": 4
+      },
+      "en_umbral_propio": {
+        "umbral": 0.0919,
+        "sensibilidad": 0.9672,
+        "sens_ic95": [
+          0.8881,
+          0.991
+        ],
+        "especificidad": 0.3611,
+        "espec_ic95": [
+          0.2248,
+          0.5242
+        ],
+        "f1": 0.8252,
+        "tp": 59,
+        "tn": 13,
+        "fp": 23,
+        "fn": 2
+      }
+    },
+    "32": {
+      "auc_oof_caso": 0.8511,
+      "auc_ic95": [
+        0.7633,
+        0.9253
+      ],
+      "n_casos": 97,
+      "en_umbral_comun": {
+        "umbral": 0.1903,
+        "sensibilidad": 0.9508,
+        "sens_ic95": [
+          0.8651,
+          0.9831
+        ],
+        "especificidad": 0.5278,
+        "espec_ic95": [
+          0.3701,
+          0.6801
+        ],
+        "f1": 0.8529,
+        "tp": 58,
+        "tn": 19,
+        "fp": 17,
+        "fn": 3
+      },
+      "en_umbral_propio": {
+        "umbral": 0.1903,
+        "sensibilidad": 0.9508,
+        "sens_ic95": [
+          0.8651,
+          0.9831
+        ],
+        "especificidad": 0.5278,
+        "espec_ic95": [
+          0.3701,
+          0.6801
+        ],
+        "f1": 0.8529,
+        "tp": 58,
+        "tn": 19,
+        "fp": 17,
+        "fn": 3
+      }
+    },
+    "64": {
+      "auc_oof_caso": 0.8147,
+      "auc_ic95": [
+        0.7173,
+        0.8992
+      ],
+      "n_casos": 97,
+      "en_umbral_comun": {
+        "umbral": 0.1903,
+        "sensibilidad": 0.9344,
+        "sens_ic95": [
+          0.8432,
+          0.9742
+        ],
+        "especificidad": 0.5,
+        "espec_ic95": [
+          0.3447,
+          0.6553
+        ],
+        "f1": 0.8382,
+        "tp": 57,
+        "tn": 18,
+        "fp": 18,
+        "fn": 4
+      },
+      "en_umbral_propio": {
+        "umbral": 0.1581,
+        "sensibilidad": 0.9508,
+        "sens_ic95": [
+          0.8651,
+          0.9831
+        ],
+        "especificidad": 0.5,
+        "espec_ic95": [
+          0.3447,
+          0.6553
+        ],
+        "f1": 0.8467,
+        "tp": 58,
+        "tn": 18,
+        "fp": 18,
+        "fn": 3
+      }
+    }
+  },
+  "comparaciones": {
+    "16_vs_32": {
+      "d_auc": -0.0071,
+      "ic95": [
+        -0.0526,
+        0.0322
+      ],
+      "distinguibles": false
+    },
+    "16_vs_64": {
+      "d_auc": 0.0295,
+      "ic95": [
+        -0.0185,
+        0.081
+      ],
+      "distinguibles": false
+    },
+    "32_vs_64": {
+      "d_auc": 0.0365,
+      "ic95": [
+        -0.0125,
+        0.0905
+      ],
+      "distinguibles": false
+    }
+  },
+  "conclusion": "Los datos no permiten distinguir entre Dense(16/32/64) con n=97 casos. Se retiene Dense(32) como decision heuristica preespecificada, NO como resultado de una comparacion concluyente. Esta comparacion no esta validada de forma anidada (misma limitacion que M-05)."
+}

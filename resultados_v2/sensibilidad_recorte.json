@@ -1,0 +1,229 @@
+{
+  "umbral": 0.1484,
+  "n_casos": 20,
+  "margen_baja_confianza": 0.1,
+  "ajuste_fino_cerca_del_umbral": {
+    "n": 16,
+    "vuelcos": 13,
+    "pct_vuelcos": 0.8125,
+    "desvio_mediano": 0.1216,
+    "desvio_p90": 0.3921
+  },
+  "ajuste_fino_lejos_del_umbral": {
+    "n": 144,
+    "vuelcos": 11,
+    "pct_vuelcos": 0.0764,
+    "desvio_mediano": 0.0663,
+    "desvio_p90": 0.5451
+  },
+  "n_casos_cerca_del_umbral": 2,
+  "definicion_ajuste_fino": "desplazamiento del centro <= 3% del tamano de la cabeza en cada eje; el recuadro sigue sobre la fosa",
+  "definicion_deriva_arriba": "desplazamiento de 6% hacia arriba; el recuadro incorpora cerebro anterior y deja de encuadrar la region",
+  "aciertos_con_sugerido": 16,
+  "ajuste_fino": {
+    "n": 160,
+    "vuelcos": 24,
+    "pct_vuelcos": 0.15,
+    "desvio_mediano": 0.0769,
+    "desvio_p90": 0.541
+  },
+  "deriva_arriba": {
+    "n": 100,
+    "vuelcos": 13,
+    "pct_vuelcos": 0.13,
+    "desvio_mediano": 0.0919,
+    "desvio_p90": 0.5351
+  },
+  "deriva_otras": {
+    "n": 220,
+    "vuelcos": 44,
+    "pct_vuelcos": 0.2,
+    "desvio_mediano": 0.094,
+    "desvio_p90": 0.7195
+  },
+  "casos_estables_ante_ajuste_fino": 11,
+  "rango_mediano_ajuste_fino": 0.4392,
+  "filas": [
+    {
+      "archivo": "chiari_2a.jpeg",
+      "clase": "chiari",
+      "p_sugerido": 0.9241,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.8382,
+      "vuelcos_ajuste_fino": 1,
+      "rango_total": 0.9533
+    },
+    {
+      "archivo": "chiari_5a.jpg",
+      "clase": "chiari",
+      "p_sugerido": 0.9993,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.0006,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.0007
+    },
+    {
+      "archivo": "chiari_10a.jpg",
+      "clase": "chiari",
+      "p_sugerido": 0.9778,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.4163,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.4251
+    },
+    {
+      "archivo": "chiari_15a.jpeg",
+      "clase": "chiari",
+      "p_sugerido": 0.9195,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.8456,
+      "vuelcos_ajuste_fino": 2,
+      "rango_total": 0.9639
+    },
+    {
+      "archivo": "chiari_18a.png",
+      "clase": "chiari",
+      "p_sugerido": 0.636,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.5537,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.8209
+    },
+    {
+      "archivo": "chiari_19a.jpg",
+      "clase": "chiari",
+      "p_sugerido": 0.4309,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.5725,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.8517
+    },
+    {
+      "archivo": "chiari_21a.jpeg",
+      "clase": "chiari",
+      "p_sugerido": 0.8843,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.2558,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.4287
+    },
+    {
+      "archivo": "chiari_24a.jpeg",
+      "clase": "chiari",
+      "p_sugerido": 0.791,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.5893,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.5903
+    },
+    {
+      "archivo": "chiari_29a.jpeg",
+      "clase": "chiari",
+      "p_sugerido": 0.9874,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.2038,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.284
+    },
+    {
+      "archivo": "chiari_50a.jpg",
+      "clase": "chiari",
+      "p_sugerido": 0.9959,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.0947,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.1747
+    },
+    {
+      "archivo": "chiari_53a.png",
+      "clase": "chiari",
+      "p_sugerido": 0.0086,
+      "acierta_con_sugerido": false,
+      "rango_ajuste_fino": 0.0409,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.0469
+    },
+    {
+      "archivo": "chiari_56a.jpg",
+      "clase": "chiari",
+      "p_sugerido": 0.9048,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.8965,
+      "vuelcos_ajuste_fino": 2,
+      "rango_total": 0.9472
+    },
+    {
+      "archivo": "chiari_57a.png",
+      "clase": "chiari",
+      "p_sugerido": 0.9688,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.1538,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.1572
+    },
+    {
+      "archivo": "chiari_58a.jpg",
+      "clase": "chiari",
+      "p_sugerido": 0.0348,
+      "acierta_con_sugerido": false,
+      "rango_ajuste_fino": 0.5832,
+      "vuelcos_ajuste_fino": 2,
+      "rango_total": 0.8568
+    },
+    {
+      "archivo": "chiari_61a.png",
+      "clase": "chiari",
+      "p_sugerido": 0.9885,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.1523,
+      "vuelcos_ajuste_fino": 0,
+      "rango_total": 0.3203
+    },
+    {
+      "archivo": "normal_1a.png",
+      "clase": "normal",
+      "p_sugerido": 0.2027,
+      "acierta_con_sugerido": false,
+      "rango_ajuste_fino": 0.1625,
+      "vuelcos_ajuste_fino": 5,
+      "rango_total": 0.5772
+    },
+    {
+      "archivo": "normal_11a.png",
+      "clase": "normal",
+      "p_sugerido": 0.113,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.5482,
+      "vuelcos_ajuste_fino": 8,
+      "rango_total": 0.6843
+    },
+    {
+      "archivo": "normal_14a.png",
+      "clase": "normal",
+      "p_sugerido": 0.0209,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.2284,
+      "vuelcos_ajuste_fino": 1,
+      "rango_total": 0.8066
+    },
+    {
+      "archivo": "normal_22a.jpeg",
+      "clase": "normal",
+      "p_sugerido": 0.0147,
+      "acierta_con_sugerido": true,
+      "rango_ajuste_fino": 0.462,
+      "vuelcos_ajuste_fino": 2,
+      "rango_total": 0.462
+    },
+    {
+      "archivo": "normal_23a.png",
+      "clase": "normal",
+      "p_sugerido": 0.944,
+      "acierta_con_sugerido": false,
+      "rango_ajuste_fino": 0.8748,
+      "vuelcos_ajuste_fino": 1,
+      "rango_total": 0.9686
+    }
+  ],
+  "conclusion": "La sensibilidad al encuadre NO esta repartida por igual: se concentra en los casos cuya probabilidad ya cae cerca del umbral, que son precisamente los que la interfaz marca como de baja confianza. Fuera de esa banda el resultado es estable frente a los ajustes finos. Esto valida el aviso de proximidad al umbral como salvaguarda real y no decorativa. Persiste el limite de C-07: un encuadre francamente incorrecto produce un resultado incorrecto, y la herramienta solo puede advertirlo si la region resulta estadisticamente atipica."
+}

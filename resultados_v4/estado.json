@@ -1,0 +1,483 @@
+{
+  "fase": "completado",
+  "variantes": [
+    "base_DenseNet121",
+    "base_EfficientNetB0",
+    "base_ResNet50V2",
+    "control_es",
+    "sin_flip",
+    "sin_clahe"
+  ],
+  "folds_hechos": 30,
+  "folds": [
+    {
+      "variante": "base_DenseNet121",
+      "arq": "DenseNet121",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.75,
+        "1": 0.7
+      },
+      "auc_val": 0.9091,
+      "minutos": 6.2
+    },
+    {
+      "variante": "base_DenseNet121",
+      "arq": "DenseNet121",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.9938,
+      "minutos": 6.0
+    },
+    {
+      "variante": "base_DenseNet121",
+      "arq": "DenseNet121",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.7575757575757576,
+        "1": 0.6987951807228916
+      },
+      "auc_val": 0.8281,
+      "minutos": 7.1
+    },
+    {
+      "variante": "base_DenseNet121",
+      "arq": "DenseNet121",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8870967741935485,
+        "1": 0.6802325581395349
+      },
+      "auc_val": 0.8333,
+      "minutos": 7.2
+    },
+    {
+      "variante": "base_DenseNet121",
+      "arq": "DenseNet121",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.9125,
+      "minutos": 7.4
+    },
+    {
+      "variante": "base_EfficientNetB0",
+      "arq": "EfficientNetB0",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "epocas_f1": 30,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.75,
+        "1": 0.7
+      },
+      "auc_val": 0.8766,
+      "minutos": 2.9
+    },
+    {
+      "variante": "base_EfficientNetB0",
+      "arq": "EfficientNetB0",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 30,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.8375,
+      "minutos": 2.9
+    },
+    {
+      "variante": "base_EfficientNetB0",
+      "arq": "EfficientNetB0",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "epocas_f1": 30,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.7575757575757576,
+        "1": 0.6987951807228916
+      },
+      "auc_val": 0.9427,
+      "minutos": 2.9
+    },
+    {
+      "variante": "base_EfficientNetB0",
+      "arq": "EfficientNetB0",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "epocas_f1": 30,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8870967741935485,
+        "1": 0.6802325581395349
+      },
+      "auc_val": 0.7476,
+      "minutos": 3.0
+    },
+    {
+      "variante": "base_EfficientNetB0",
+      "arq": "EfficientNetB0",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 30,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.775,
+      "minutos": 3.4
+    },
+    {
+      "variante": "base_ResNet50V2",
+      "arq": "ResNet50V2",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "epocas_f1": 24,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.75,
+        "1": 0.7
+      },
+      "auc_val": 0.7792,
+      "minutos": 4.9
+    },
+    {
+      "variante": "base_ResNet50V2",
+      "arq": "ResNet50V2",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 24,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.75,
+      "minutos": 4.4
+    },
+    {
+      "variante": "base_ResNet50V2",
+      "arq": "ResNet50V2",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "epocas_f1": 24,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.7575757575757576,
+        "1": 0.6987951807228916
+      },
+      "auc_val": 0.7812,
+      "minutos": 4.5
+    },
+    {
+      "variante": "base_ResNet50V2",
+      "arq": "ResNet50V2",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "epocas_f1": 24,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8870967741935485,
+        "1": 0.6802325581395349
+      },
+      "auc_val": 0.9048,
+      "minutos": 4.5
+    },
+    {
+      "variante": "base_ResNet50V2",
+      "arq": "ResNet50V2",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 24,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.8938,
+      "minutos": 4.7
+    },
+    {
+      "variante": "control_es",
+      "arq": "DenseNet121",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.75,
+        "1": 0.7
+      },
+      "auc_val": 0.961,
+      "minutos": 7.9,
+      "mejor_epoca_f1": 27
+    },
+    {
+      "variante": "control_es",
+      "arq": "DenseNet121",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 1.0,
+      "minutos": 8.1,
+      "mejor_epoca_f1": 28
+    },
+    {
+      "variante": "control_es",
+      "arq": "DenseNet121",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.7575757575757576,
+        "1": 0.6987951807228916
+      },
+      "auc_val": 0.849,
+      "minutos": 8.4,
+      "mejor_epoca_f1": 28
+    },
+    {
+      "variante": "control_es",
+      "arq": "DenseNet121",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "epocas_f1": 19,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8870967741935485,
+        "1": 0.6802325581395349
+      },
+      "auc_val": 0.8667,
+      "minutos": 5.2,
+      "mejor_epoca_f1": 4
+    },
+    {
+      "variante": "control_es",
+      "arq": "DenseNet121",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 22,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.9187,
+      "minutos": 6.1,
+      "mejor_epoca_f1": 7
+    },
+    {
+      "variante": "sin_flip",
+      "arq": "DenseNet121",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.75,
+        "1": 0.7
+      },
+      "auc_val": 0.8506,
+      "minutos": 8.5
+    },
+    {
+      "variante": "sin_flip",
+      "arq": "DenseNet121",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.9625,
+      "minutos": 8.4
+    },
+    {
+      "variante": "sin_flip",
+      "arq": "DenseNet121",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.7575757575757576,
+        "1": 0.6987951807228916
+      },
+      "auc_val": 0.9167,
+      "minutos": 8.4
+    },
+    {
+      "variante": "sin_flip",
+      "arq": "DenseNet121",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8870967741935485,
+        "1": 0.6802325581395349
+      },
+      "auc_val": 0.7429,
+      "minutos": 9.1
+    },
+    {
+      "variante": "sin_flip",
+      "arq": "DenseNet121",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.9062,
+      "minutos": 9.1
+    },
+    {
+      "variante": "sin_clahe",
+      "arq": "DenseNet121",
+      "fold": 1,
+      "n_train": 119,
+      "n_val": 29,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.75,
+        "1": 0.7
+      },
+      "auc_val": 0.8961,
+      "minutos": 8.9
+    },
+    {
+      "variante": "sin_clahe",
+      "arq": "DenseNet121",
+      "fold": 2,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.9563,
+      "minutos": 8.7
+    },
+    {
+      "variante": "sin_clahe",
+      "arq": "DenseNet121",
+      "fold": 3,
+      "n_train": 116,
+      "n_val": 32,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.7575757575757576,
+        "1": 0.6987951807228916
+      },
+      "auc_val": 0.8958,
+      "minutos": 9.5
+    },
+    {
+      "variante": "sin_clahe",
+      "arq": "DenseNet121",
+      "fold": 4,
+      "n_train": 117,
+      "n_val": 31,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8870967741935485,
+        "1": 0.6802325581395349
+      },
+      "auc_val": 0.8571,
+      "minutos": 9.5
+    },
+    {
+      "variante": "sin_clahe",
+      "arq": "DenseNet121",
+      "fold": 5,
+      "n_train": 120,
+      "n_val": 28,
+      "epocas_f1": 40,
+      "epocas_f2": 15,
+      "class_weight": {
+        "0": 1.8181818181818181,
+        "1": 0.6896551724137931
+      },
+      "auc_val": 0.95,
+      "minutos": 9.4
+    }
+  ],
+  "entorno": {
+    "python": "3.10.0",
+    "tensorflow": "2.21.0",
+    "keras": "3.12.1",
+    "plataforma": "Windows-10-10.0.26200-SP0",
+    "procesador": "Intel64 Family 6 Model 165 Stepping 2, GenuineIntel",
+    "gpus": 0,
+    "pipeline": "2.0.0",
+    "semilla": 42
+  },
+  "actualizado": "22:43:50",
+  "transcurrido_min": 200.2,
+  "total_folds": 30,
+  "variante_actual": "sin_clahe"
+}
