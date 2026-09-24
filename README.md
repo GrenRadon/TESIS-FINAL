@@ -143,4 +143,5 @@ Radiopaedia.org, con atribución a cada colaborador. Consulta la política ofici
 cláusula *ShareAlike* de la licencia de origen condicionaría cualquier redistribución
 comercial o con licencia distinta.
 
+## 
 Elaborado por Steven Garcia y Julian Villamizar.
