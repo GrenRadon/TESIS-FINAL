@@ -1,6 +1,26 @@
+# --- Imagenes de origen: NO se publican ---
+# Las 177 imagenes proceden de Radiopaedia.org bajo CC BY-NC-SA 3.0. Este trabajo declara
+# que no las redistribuye. resultados/v2/procedencia_imagenes.csv contiene, para cada una,
+# el autor, el rID, la URL del caso, la fecha de acceso y el sha256, de modo que un tercero
+# puede recuperarlas y verificar que son identicas.
 data/
-.venv/
-__pycache__/
-*.py[cod]
+
+# --- Artefactos de entrenamiento pesados ---
+models_v4/
+models_final_v4/
 *.keras
 *.h5
+
+# --- Entorno y temporales ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# --- Salidas de corridas ---
+log_*.txt
+*.log
+~$*
