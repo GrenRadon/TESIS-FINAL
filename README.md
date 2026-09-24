@@ -142,3 +142,5 @@ Radiopaedia.org, con atribución a cada colaborador. Consulta la política ofici
 **El modelo entrenado** (`app/models/*.onnx`) es un trabajo derivado de esas imágenes. La
 cláusula *ShareAlike* de la licencia de origen condicionaría cualquier redistribución
 comercial o con licencia distinta.
+
+Elaborado por Steven Garcia y Julian Villamizar.
