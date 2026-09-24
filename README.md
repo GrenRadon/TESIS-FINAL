@@ -72,8 +72,6 @@ data/                        imágenes de origen — NO versionadas, ver más ab
 | `docs/PRIVACIDAD_Y_FLUJO_DE_DATOS.md` | Recorrido de la imagen, y qué NO cubre esa afirmación |
 | `docs/DIAGRAMAS_CODIGO.md` | Los diagramas del trabajo como código Mermaid y Graphviz |
 | `docs/CATALOGO_FIGURAS.md` | Cada figura, su origen y el script que la genera |
-| `docs/HANDOFF_CORRECCIONES.md` | Todas las cifras del capítulo de resultados, generadas desde los artefactos |
-| `docs/CHECKLIST_CORRECCIONES.md` | Estado de los 35 hallazgos de la evaluación |
 
 ---
 
